@@ -71,4 +71,16 @@ Thumbs.db
 docker-elk/elasticsearch/data/
 docker-elk/elasticsearch/nodes/
 docker-elk/logstash/logs/
-docker-elk/kibana/optimize/
+docker-elk/kibana/optimize/data/
+*.csv
+*.ndjson
+*.zip
+*.safetensors
+*.pt
+*.onnx
+model.pkl
+app/camembert_fakenews_model*/
+.venv/
+docker-elk/elasticsearch/data/
+docker-elk/elasticsearch/nodes/
+.env
