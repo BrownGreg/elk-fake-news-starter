@@ -40,3 +40,35 @@ app/camembert_fakenews_model/
 !app/camembert_fakenews_model/special_tokens_map.json
 !app/camembert_fakenews_model/tokenizer.json
 !app/camembert_fakenews_model/sentencepiece.bpe.model
+
+
+# Données / modèles (gros fichiers)
+data/
+*.csv
+*.ndjson
+*.zip
+*.safetensors
+*.pt
+*.onnx
+*zip
+model.pkl
+camembert_fakenews_model*/
+app/camembert_fakenews_model*/
+
+# Secrets
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Docker ELK caches/volumes (si présents)
+docker-elk/elasticsearch/data/
+docker-elk/elasticsearch/nodes/
+docker-elk/logstash/logs/
+docker-elk/kibana/optimize/
