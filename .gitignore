@@ -1,0 +1,42 @@
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.safetensors
+*.ipynb_checkpoints/
+
+# Data
+*.csv
+*.tsv
+*.ndjson
+*.cache
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Docker
+**/logs/
+**/tmp/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Model files
+app/camembert_fakenews_model/
+!app/camembert_fakenews_model/config.json
+!app/camembert_fakenews_model/tokenizer_config.json
+!app/camembert_fakenews_model/special_tokens_map.json
+!app/camembert_fakenews_model/tokenizer.json
+!app/camembert_fakenews_model/sentencepiece.bpe.model
